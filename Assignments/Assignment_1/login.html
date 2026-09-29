@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login Page</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<center>
+<h1>Login Window</h1>
+
+<div id="loginBox">
+	<table>
+		<tr>
+			<td>Name :</td>
+			<td><input type="text" id="name" placeholder="Enter Name" required></td>
+		</tr>
+		<tr>
+			<td>Roll No :</td>
+			<td><input type="password" id="roll" placeholder="Enter Roll No"></td>
+		</tr>
+
+<tr>
+    <td>Branch :</td>
+    <td>
+        <select id="branch" name="branch">
+            <option value="" disabled selected>Select your Branch</option>
+            <option value="CS">CS</option>
+            <option value="DS">DS</option>
+            <option value="AIML">AIML</option>
+        </select>
+    </td>
+</tr>
+		<tr>
+    <td>Section :</td>
+    <td>
+        <select id="section" name="section">
+            <option value="" disabled selected>Select your Section</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+        </select>
+    </td>
+</tr>
+	</table>
+	<br>
+	<button id="loginBtn" onclick="doLogin()">Login</button>
+	<p id="loginMsg"></p>
+</div>
+
+</center>
+
+<script src="script.js"></script>
+</body>
+</html>

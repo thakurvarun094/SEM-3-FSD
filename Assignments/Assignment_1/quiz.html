@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ABES QUIZ</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="startQuiz()">
+
+<center>
+<h1>ABES QUIZ</h1>
+
+<h3>Time Left : <span id="timer">05:00</span></h3>
+
+<div id="quizBox">
+
+	<h2 id="questionNo"></h2>
+	<p id="questionText"></p>
+
+	<div id="options">
+		<div class="option" onclick="selectOption(0)">A) <span id="opt0"></span></div>
+		<div class="option" onclick="selectOption(1)">B) <span id="opt1"></span></div>
+		<div class="option" onclick="selectOption(2)">C) <span id="opt2"></span></div>
+		<div class="option" onclick="selectOption(3)">D) <span id="opt3"></span></div>
+	</div>
+
+	<br>
+	<button id="nextBtn" onclick="nextQuestion()">Next</button>
+
+</div>
+
+<div id="resultBox" style="display:none">
+	<h2>Quiz Over !</h2>
+	<p id="finalScore"></p>
+	<button onclick="location.href='login.html'">Back to Login</button>
+</div>
+
+</center> 
+
+<script src="script.js"></script>
+</body>
+</html>

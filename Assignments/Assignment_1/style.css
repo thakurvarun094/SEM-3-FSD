@@ -1,0 +1,98 @@
+body {
+	background-color: #dbeeff;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+h1 {
+	color: darkblue;
+	text-decoration: underline;
+}
+
+#loginBox {
+	background-color: white;
+	border: 3px solid navy;
+	padding: 20px;
+	width: 300px;
+	margin-top: 30px;
+}
+
+table td {
+	padding: 6px;
+}
+
+input {
+	border: 1px solid gray;
+	padding: 4px;
+	width: 150px;
+}
+
+button {
+	background-color: yellow;
+	border: 2px outset gray;
+	padding: 8px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: gold;
+}
+
+#quizBox {
+	background-color: white;
+	border: 4px double navy;
+	padding: 20px;
+	width: 400px;
+	margin-top: 10px;
+}
+
+#questionNo {
+	color: purple;
+}
+
+#questionText {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.option {
+	border: 2px solid black;
+	background-color: #f2f2f2;
+	margin: 8px;
+	padding: 10px;
+	text-align: left;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.option:hover {
+	background-color: #e0e0e0;
+}
+
+.selected {
+	background-color: lightblue !important;
+	border: 2px solid blue;
+}
+
+.correct {
+	background-color: #6bff6b !important;
+	border: 3px solid green;
+}
+
+.wrong {
+	background-color: #ff6b6b !important;
+	border: 3px solid red;
+}
+
+#timer {
+	color: red;
+	font-weight: bold;
+}
+
+#resultBox {
+	background-color: white;
+	border: 4px double navy;
+	padding: 20px;
+	width: 300px;
+}
